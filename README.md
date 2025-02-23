@@ -60,3 +60,7 @@ We provide unit tests along with the project that you can run and check from you
 ```console
 $ pytest tests/
 ```
+
+## Credits:
+
+AnyoneAI
