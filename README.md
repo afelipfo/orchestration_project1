@@ -1,12 +1,19 @@
-# Sprint project 01 E-Commerce Data Pipeline
+# E-Commerce Data Pipeline
 
 ## The Business problem
 
-You are working for one of the largest E-commerce sites in Latam and they requested the Data Science team to analyze company data to understand better their performance in specific metrics during the years 2016-2018.
+The Data Science team has been tasked with analyzing company data for one of the largest E-commerce platforms in Latam to assess performance in key metrics between 2016 and 2018.
 
-They are two main areas they want to explore, those are **Revenue** and **Delivery**.
+The analysis focuses on two main areas:
+	1.	Revenue Analysis:
+	•	Total revenue per year.
+	•	Most and least popular product categories.
+	•	Revenue distribution by state.
+	2.	Delivery Performance:
+	•	Average delivery time per month.
+	•	Difference between estimated and actual delivery dates.
 
-Basically, they would like to understand how much revenue by year they got, which were the most and less popular product categories, and the revenue by state. On the other hand, it's also important to know how well the company is delivering the products sold in time and form to their users. For example, seeing how much takes to deliver a package depends on the month and the difference between the estimated delivery date and the real one.
+This study aims to provide insights into sales trends and logistics efficiency to improve decision-making and optimize operations. 🚀
 
 ## About the data
 
@@ -15,16 +22,18 @@ You will consume and use data from two sources.
 The first one is a Brazilian e-commerce public dataset of orders made at the Olist Store, provided as CSVs files. This is real commercial data, that has been anonymized. The dataset has information on 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allow viewing orders from multiple dimensions: from order status, price, payment, and freight performance to customer location, product attributes and finally reviews written by customers. You will find an image showing the database schema at `images/data_schema.png`. 
 
 To get the dataset please:
-1.  Download it from this [link](https://drive.google.com/file/d/1HIy4LNNQESuXUj-u_mNJTCGCRrCeSbo-/view?usp=share_link)
-2. Extract the `dataset` folder from the `.zip` file and place it into the root project folder. 
-3. See `ASSIGNMENT.md`, section **Project Structure** to validate you've placed the dataset as it's needed.
-4. The second source is a public API: https://date.nager.at. You will use it to retrieve information about Brazil's Public Holidays and correlate that with certain metrics about the delivery of products.
+1.1.  Download it from this [link](https://drive.google.com/file/d/1HIy4LNNQESuXUj-u_mNJTCGCRrCeSbo-/view?usp=share_link)
+1.2. Extract the `dataset` folder from the `.zip` file and place it into the root project folder. 
+1.3. See `ASSIGNMENT.md`, section **Project Structure** to validate you've placed the dataset as it's needed.
+
+2. The second source is a public API: https://date.nager.at. You will use it to retrieve information about Brazil's Public Holidays and correlate that with certain metrics about the delivery of products.
 
 ## Technical aspects
 
 Because the team knows the data will come from different sources and formats, also, probably you will have to provide these kinds of reports on a monthly or annual basis. They decided to build a data pipeline (ELT) they can execute from time to time to produce the results.
 
 The technologies involved are:
+
 - Python as the main programming language
 - Pandas for consuming data from CSVs files
 - Requests for querying the public holidays API
@@ -43,15 +52,6 @@ $ pip install -r requirements.txt
 
 *Note:* We encourage you to install those inside a virtual environment.
 
-## Code Style
-
-Following a style guide keeps the code's aesthetics clean and improves readability, making contributions and code reviews easier. Automated Python code formatters make sure your codebase stays in a consistent style without any manual work on your end. If adhering to a specific style of coding is important to you, employing an automated to do that job is the obvious thing to do. This avoids bike-shedding on nitpicks during code reviews, saving you an enormous amount of time overall.
-
-We use [Black](https://black.readthedocs.io/) for automated code formatting in this project, you can run it with:
-
-```console
-$ black --line-length=88 .
-```
 
 ## Tests
 
