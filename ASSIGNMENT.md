@@ -142,6 +142,6 @@ Folder with the necessary files to test the project.
 ### Others
 
 - `ASSIGNMENT.md`: File that has key information to understand the project.
-- `AnyoneAI - Sprint Project 01.ipynb`: File that unifies the different parts of the project and tells you the steps you should follow to properly complete this project.
+- `Main`: File that unifies the different parts of the project and tells you the steps you should follow to properly complete this project.
 - `README.md`: File that explains the business problem, the data you will consume, the expected code style and technical aspects.
 - `requirements.txt`: File that contains all the libraries that need to be installed.
