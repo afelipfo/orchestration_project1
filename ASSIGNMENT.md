@@ -38,12 +38,6 @@ Finally, having all the results from our queries, it's time to start making some
 
 For this, you should open the `AnyoneAI - Sprint Project 01.ipynb` Jupyter notebook provided, fill in the **TODO** parts and ensure all the cells runs in the pre-defined order without issues.
 
-## 5. [OPTIONAL] Data Orchestration with Apache Airflow
-
-In this optional task, we ask you to re-use the current ELT pipeline code to create an Airflow DAG so we automatize the entire process.
-
-Please don't modify or change the structure of the current project or code that can break the unit tests provided. Instead, we suggest you work on a new folder inside the project and put all the DAGs' code there. 
-
 ## Project Structure
 
 Before starting to work, let's take a deep overview of the project structure and each module inside:
