@@ -1,6 +1,3 @@
-# Sprint project 01: Instructions
-> E-Commerce Data Pipeline
-
 For solving this project and creating the ELT pipeline you will need to complete Python (.py) and SQL (.sql) files distributed across different folders. Below we provide instructions on how to proceed and the order:
 
 ## 1. Extract
