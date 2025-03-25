@@ -13,7 +13,7 @@ The analysis focuses on two main areas:
 	•	Average delivery time per month.
 	•	Difference between estimated and actual delivery dates.
 
-This study aims to provide insights into sales trends and logistics efficiency to improve decision-making and optimize operations. 🚀
+This study aims to provide insights into sales trends and logistics efficiency to improve decision-making and optimize operations.
 
 ## About the data
 
@@ -60,7 +60,3 @@ We provide unit tests along with the project that you can run and check from you
 ```console
 $ pytest tests/
 ```
-
-## Credits:
-
-AnyoneAI

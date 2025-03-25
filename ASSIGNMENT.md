@@ -1,8 +1,4 @@
-For solving this project and creating the ELT pipeline you will need to complete Python (.py) and SQL (.sql) files distributed across different folders. Below we provide instructions on how to proceed and the order:
-
 ## 1. Extract
-
-For the pipeline data extraction phase, you will have to fill in all the functions with a **TODO** mark inside the `src/extract.py` module.
 
 If you want to check your code meets the requirements, you can test that particular module simply by running:
 
@@ -14,15 +10,11 @@ $ pytest tests/test_extract.py
 
 Now you have all the data from different sources, it's time to store that in a Data Warehouse. We will use SQLite as our database engine to keep things simpler but, in larger companies, Snowflake is one of the most popular options for Data Warehouses these days.
 
-Please, complete all the functions with a **TODO** mark inside the `src/load.py` module.
-
 ## 3. Transform
 
 Having the data inside our Data Warehouse, we can start making queries and transformations.
 
 For this task, we already provide you with the needed code inside `src/extract.py` module but, you will have to write the SQL queries 😬.
-
-Please, complete all the `.sql` scripts with a **TODO** mark inside the `queries/` folder.
 
 You can make use of other tools like DBeaver to write and test the queries in a more interactive way. Lastly, you can check your queries meets the requirements by running the provided tests with:
 
